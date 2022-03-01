@@ -33,17 +33,17 @@ function App() {
     console.log(error)
   }
 
-const handleSubmit = (e) =>{
-  e.preventDefault()
-  // console.log(summary, description, location, startDateTime, endDateTime)
-  axios.post('/api/create-event', {
+// const handleSubmit = (e) =>{
+//   e.preventDefault()
+//   // console.log(summary, description, location, startDateTime, endDateTime)
+//   axios.post('/api/create-event', {
     
-  })
-  .then(response => {
-    console.log(response.data)
-    setSignedIn(true)
-  })
-}
+//   })
+//   .then(response => {
+//     console.log(response.data)
+//     setSignedIn(true)
+//   })
+// }
 
 const [signedIn, setSignedIn] = useState(false)
 
