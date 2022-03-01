@@ -1,5 +1,5 @@
 const labelsClasses = [
-  "indigo",
+  "black",
   "gray",
   "green",
   "blue",
